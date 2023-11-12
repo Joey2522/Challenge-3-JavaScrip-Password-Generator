@@ -100,6 +100,12 @@ function generatePassword() {
     return "Passwword not generatedd because of invalid input. Please retry by pressing generate button.";
   }
 
+  var password = "";
+   for (let i = 0; i < length; i++) {
+     password += passwordCharSet[Math.floor(Math.random() * passwordCharSet.length)]
+   }
+    return password;
+
 }
 
 
