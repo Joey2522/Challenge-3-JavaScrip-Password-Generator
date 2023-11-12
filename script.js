@@ -64,7 +64,13 @@ function generatePassword() {
 
   var length = parseInt( window.prompt("Choose password length. Must be between 8-128 characters."));
   if (Number.isNaN(length)){
-    alert(`Password length must be a number, please retry. You typed in ${length}`);
+    alert(`"Password length must be a number, please retry. You typed in ${length}`);
+    return "Passwword not generatedd because of invalid input. Please retry by pressing generate button.";
+
+  }
+  if (length < 8 || length > 128) {
+    alert(`Password length must be between 8-128, please retry. You typed in ${length}`);
+    return "Passwword not generatedd because of invalid input. Please retry by pressing generate button.";
   }
 }
 
