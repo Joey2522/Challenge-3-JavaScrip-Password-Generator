@@ -95,6 +95,10 @@ function generatePassword() {
     passwordCharSet += keyStrings.symbol;
   };
 
+  if (lowercase === false && uppercase === false && numbers === false && symbols === false) {
+    alert("Atlease one character type should be chosen. Please retry");
+    return "Passwword not generatedd because of invalid input. Please retry by pressing generate button.";
+  }
 
 }
 
