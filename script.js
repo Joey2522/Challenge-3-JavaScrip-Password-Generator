@@ -7,7 +7,6 @@ const keyStrings = {
 };
 
 function generatePassword() {
-  // console.log("Generate button is clicked, generate password is called");
 
   let passwordCharSet = '';
 
@@ -50,7 +49,7 @@ function generatePassword() {
   var password = "";
    for (let i = 0; i < length; i++) {
      password += passwordCharSet[Math.floor(Math.random() * passwordCharSet.length)]
-   }
+  }
     return password;
 }
 
