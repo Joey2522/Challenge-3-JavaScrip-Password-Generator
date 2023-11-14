@@ -7,8 +7,9 @@ I was given an HTML file, a CSS file and small piece of a JS file from my UT boo
 
 Once I was able to generate my code successfully I made some tweaks to the questions that are presented and thought through a few scenarios with a bootcamp tutor that encouraged me to add some "if elements" to the code as well. For example if the user input information into the window prompt that did not make sense with the question, they then would be asked to start over and told why they were being asked to do so.
 
-## Page Screen Shot & Link
+## Page Link & Screen Shot
 
+https://joey2522.github.io/Challenge-3-JavaScrip-Password-Generator/
 
 
 ## Authors
