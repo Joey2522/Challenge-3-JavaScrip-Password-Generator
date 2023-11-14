@@ -11,6 +11,7 @@ Once I was able to generate my code successfully I made some tweaks to the quest
 
 https://joey2522.github.io/Challenge-3-JavaScrip-Password-Generator/
 
+<img width="1076" alt="Screenshot 2023-11-14 at 2 51 53 PM" src="https://github.com/Joey2522/Challenge-3-JavaScrip-Password-Generator/assets/148152563/50bc6505-b8ec-435f-9143-10b923cafb26">
 
 ## Authors
 
